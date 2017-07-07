@@ -10,9 +10,6 @@ public class Factorial {
         if (i == 0){
             return 1;
         }
-        if (i > 0 && i <= 2){
-            return i;
-        }
         else {
             return i * compute(i - 1);
         }
